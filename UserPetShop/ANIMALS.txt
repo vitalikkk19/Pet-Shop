@@ -1,0 +1,4 @@
+Dog, Beagle, standart,3,1000, Samoyed, white ,4,1200
+Cat, stryy, gray,2,800, SIA, read,4,300
+Cat, PER, bleck,3,50,fff , yellow,5,250
+Guinea pig, bleck and white, 3,150,0,
