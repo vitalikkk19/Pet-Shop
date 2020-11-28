@@ -140,14 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ANIMALS.cpp" />
-    <ClCompile Include="AnimalsRepo.cpp" />
     <ClCompile Include="NetPetShop.cpp" />
-    <ClCompile Include="Repository.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ANIMALS.h" />
-    <ClInclude Include="AnimalsRepo.h" />
-    <ClInclude Include="Entity.h" />
     <ClInclude Include="NetPetShop.h" />
     <ClInclude Include="Repository.h" />
   </ItemGroup>

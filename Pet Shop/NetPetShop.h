@@ -1,7 +1,9 @@
 #ifndef NetPetShop_H
 #define NetPetShop_H
 
+#include<iostream>
 #include<string>
+#include<fstream>
 using namespace std;
 
 class NetPetShop
@@ -11,10 +13,14 @@ class NetPetShop
 
 public:
 	NetPetShop(string = "", string = "Lviv");
-	void Write();
+	virtual void Write();
 
 	string GetName();
 	string GetAddress();
+	string GetStorageName();
+	friend ifstream& operator>>(ifstream& fin, NetPetShop& NetPetShopp);
+	friend ofstream& operator<<(ofstream& fout, NetPetShop& NetPetShopp);
+	friend ostream& operator<<(ostream& out, NetPetShop& NetPetShopp);
 };
 
 #endif 
